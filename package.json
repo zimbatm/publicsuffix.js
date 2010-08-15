@@ -1,0 +1,18 @@
+{
+  "name": "publicsuffix",
+  "version": "0.1.0",
+  "description": "Extracts subdomain, original domain and tld from a given domain",
+  "maintainers": [
+    {
+      "name": "Jonas Pfenniger",
+      "email": "jonas@pfenniger.name",
+      "web": "http://jonas.pfenniger.name/" 
+    } 
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "http://github.com/..."
+    }
+  ]
+}
