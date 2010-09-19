@@ -1,13 +1,13 @@
 publicsuffix
 ============
 
-See: http://publicsuffix.org/
+This is a JavaScript implementation of the Public Suffix List (see: http://publicsuffix.org/ )
 
-
+Nothing fancy..
 
 TODO
 ----
 
-* FIX utf-8 issues
-* Faster algorithm
 * Make it work also in browsers
+* Faster algorithm
+* Add some more tests

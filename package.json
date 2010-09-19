@@ -1,18 +1,19 @@
-{
-  "name": "publicsuffix",
-  "version": "0.1.0",
-  "description": "Extracts subdomain, original domain and tld from a given domain",
-  "maintainers": [
-    {
-      "name": "Jonas Pfenniger",
-      "email": "jonas@pfenniger.name",
-      "web": "http://jonas.pfenniger.name/" 
-    } 
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "http://github.com/..."
+{ "name": "publicsuffix"
+, "version": "0.1.0"
+, "description": "JavaScript version of the Public Suffix List"
+, "author" : "Jonas Pfenniger (zimbatm) <jonas@pfenniger.name> (http://jonas.pfenniger.name)"
+, "repository" :
+  { "type" : "git"
+  , "url" : "http://github.com/isaacs/publicsuffix.js.git"
+  }
+, "bugs" :
+  { "web" : "http://github.com/isaacs/publicsuffix.js/issues" }
+, "directories" : { "lib" : "./lib" }
+, "main" : "publicsuffix"
+, "engines" : { "node" : ">=0.2.0", "browser" : "???" }
+, "licenses" :
+  [ { "type" : "public domain"
+    , "url" : "http://unlicense.org/"
     }
   ]
 }
