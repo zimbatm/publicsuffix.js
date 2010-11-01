@@ -1,19 +1,13 @@
-{ "name": "publicsuffix"
-, "version": "0.1.1"
-, "description": "JavaScript version of the Public Suffix List"
-, "author" : "Jonas Pfenniger (zimbatm) <jonas@pfenniger.name> (http://jonas.pfenniger.name)"
-, "repository" :
-  { "type" : "git"
-  , "url" : "http://github.com/zimbatm/publicsuffix.js.git"
-  }
-, "bugs" :
-  { "web" : "http://github.com/zimbatm/publicsuffix.js/issues" }
-, "directories" : { "lib" : "./lib" }
-, "main" : "publicsuffix"
-, "engines" : { "node" : ">=0.2.0", "browser" : "???" }
-, "licenses" :
-  [ { "type" : "public domain"
-    , "url" : "http://unlicense.org/"
-    }
+{ "name": "publicsuffix",
+  "version": "0.1.1",
+  "description": "JavaScript version of the Public Suffix List",
+  "author" : "Jonas Pfenniger (zimbatm) <jonas@pfenniger.name> (http://jonas.pfenniger.name)",
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/zimbatm/publicsuffix.js.git"
+  },
+  "main" : "./lib/publicsuffix",
+  "licenses" : [
+    { "type" : "public domain", "url" : "http://unlicense.org/" }
   ]
 }
