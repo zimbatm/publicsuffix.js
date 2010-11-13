@@ -32,6 +32,7 @@ fetchList(function(lines) {
   var out = fs.createWriteStream('lib/publicsuffix-list.js');
   out.write(header);
   out.write(js_list);
+  sys.puts("*** lib/publicsuffis-list.js updated");
 });
 
 // sync: Remove useless lines
@@ -65,8 +66,10 @@ function fetchList(fn) {
       fulllist.push(chunk);
     });
     response.addListener('end', function() {
+      sys.puts("*** Got list, now triaging ***");
       fn(fulllist.join(''));
     });
   });
   request.end();
+  sys.puts("*** Fetching list ***");
 }
