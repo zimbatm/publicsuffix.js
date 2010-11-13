@@ -20,7 +20,9 @@ See http://unlicence.org for more details.
 Ideas for later (or if you want to help)
 ---------------
 
-Changing the list to a reverse hash tree could be more space efficient.
+* Changing the list to a reverse hash tree could be more space efficient.
 Lookup would maybe also be faster, but there is not efficiency problem for
 me.
 A hash tree like {uk: {co: ... 
+
+* Provide a mean to update the list at runtime. It's hard to do that in the browser though.

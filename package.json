@@ -1,5 +1,5 @@
 { "name": "publicsuffix",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "JavaScript version of the Public Suffix List",
   "author" : "Jonas Pfenniger (zimbatm) <jonas@pfenniger.name> (http://jonas.pfenniger.name)",
   "repository" : {
