@@ -1,6 +1,10 @@
 publicsuffix-js
 ===============
 
+WARNING: the current algorithm is broken but I don't have time to fix it up yet.
+  Instead of lots of regexpes, domains should be split on the doc ('.') character
+  and looked-up in a hash tree. If you have time to fix this, please let me know :-p
+
 Implements the algorithm to distinguish separate domains (for example browsers
 need to know that for their cookies and authorization models). Unfortunately
 there is no better algorithm than looking-up a published list.
