@@ -1,7 +1,7 @@
 require.paths.unshift('lib');
 var ps = require('publicsuffix'),
   assert = require('assert'),
-  sys = require('sys'),
+  util = require('util'),
   tests = [];
 
 
@@ -30,10 +30,10 @@ testURL('google.com', ['', 'google.com', '']);
 testURL('mailto:foo@example.com', ['mailto:foo@', 'example.com', '']);
 
 for (var i=0, l=tests.length; i<l; i++) {
-  sys.puts("Running test " + i + "/" + l);
+  util.puts("Running test " + i + "/" + l);
   tests[i]();
 }
-sys.puts("All tests passed");
+util.puts("All tests passed");
 
 
 function test(source, expected) {
